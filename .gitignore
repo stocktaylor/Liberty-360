@@ -1,0 +1,9 @@
+game/
+out/
+tmp/
+_tools/logs/
+generated/*
+!generated/rexglue.cmake
+dist/
+_tools/
+xenia/
