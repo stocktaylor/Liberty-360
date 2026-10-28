@@ -65,3 +65,45 @@ includes = []
 
 # Added by rex triage: unregistered indirect-call target.
 0x8273A3B0 = {}
+
+# Adjustor thunk (this -= 4; b 0x82177920) for a secondary base's vtable. The
+# analyzer merged it with the method it tail-branches to, so the method's own
+# primary-vtable entry (0x82177920) was only a label. Split at the branch.
+0x82177910 = { size = 0x8 }
+0x82177920 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82548088 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x827D5250 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82596C00 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82563C80 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82561560 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82586AB0 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82588F30 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82554200 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x8258B4E8 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82590148 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82596C10 = {}
+
+# Added by rex triage: unregistered indirect-call target.
+0x82825708 = {}
