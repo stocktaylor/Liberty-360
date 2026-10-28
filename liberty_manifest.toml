@@ -107,3 +107,6 @@ includes = []
 
 # Added by rex triage: unregistered indirect-call target.
 0x82825708 = {}
+
+# Added by hand (crash during play): unregistered indirect-call target.
+0x8276E238 = {}
